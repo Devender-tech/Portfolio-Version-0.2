@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Devender</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle-flex">
+            <i class="fas fa-bars menu-toggle"></i>
+        </div>
+        
+        <nav class="nav container">
+            <div class="logo">
+                <h1>DEVENDER SHARMA</h1>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contactme">CONTACT ME</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contactme">CONTACT ME</a></li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <div class="header-info">
+        <h1>Hello! I am Devender Sharma</h1>
+        <h3>Web Developer</h3>
+        <div class="social-header">
+            <ul>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-github"></i></i></li>
+            </ul>
+            
+
+        </div>
+    </div>
+
+    <section id="services" class="services container">
+        <div>
+            <h2>SERVICES PROVIDED</h2>
+        </div>
+        <div class="service-grid">
+            <div class="grid-1">
+                <i class="fas fa-stream"></i>
+                <h3>Web Design</h3>
+                <p>We will design the website as per your requirements.</p>
+            </div>
+            <div class="grid-2">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Convert your Design into a working website.</p>
+            </div>
+            <div class="grid-3">
+                <i class="fas fa-globe"></i>
+                <h3>Digital Marketing</h3>
+                <p>We will help you to grow your online presense.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio"class="portfolio container">
+        <h2>PORTFOLIO</h2>
+        <div class="portfolio-grid">
+            <div class="grid-a">
+                <img src="img/img-1.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="overlay-link">
+                    <h3>&#x268B; VIEW PORTFOLIO</h3>
+                </div>
+            </div>
+            <div class="grid-b">
+                <img src="img/img-2.jpg" alt="">
+                <div class="overlay">
+                    
+                </div>
+                <div class="overlay-link">
+                    <h3>&#x268B; VIEW PORTFOLIO</h3>
+                </div>
+            </div>
+            <div class="grid-c">
+                <img src="img/img-3.jpg" alt="">
+                <div class="overlay">
+                    
+                </div>
+                <div class="overlay-link">
+                    <h3>&#x268B; VIEW PORTFOLIO</h3>
+                </div>
+            </div>
+            <div class="grid-d">
+                <img src="img/img-4.jpg" alt="">
+                <div class="overlay">
+                    
+                </div>
+                <div class="overlay-link">
+                    <h3>&#x268B; VIEW PORTFOLIO</h3>
+                </div>
+            </div>
+            <div class="grid-e">
+                <img src="img/img-5.jpg" alt="">
+                <div class="overlay">
+                    
+                </div>
+                <div class="overlay-link">
+                    <h3>&#x268B; VIEW PORTFOLIO</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contactme" class="container">
+        <h2>
+            CONTACT ME
+        </h2>
+<form action="process.php" method="POST">
+    <div class="form-grid">
+        <div class="fname">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" name="fname"id="fname">
+        </div>
+        <div class="lname">
+            <label for="lname">LAST NAME</label>
+            <input type="text" name="lname"id="lname">
+        </div>
+        <div class="email">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email"id="email">
+        </div>
+        <div class="phone">
+            <label for="phone">CONTACT NUMBER</label>
+            <input type="number" name="phone"id="phone">
+        </div>
+           
+    </div>
+    <div class="message">
+        <label for="message">MESSAGE</label>
+        <input type="text" name="message" id=""></input>
+    </div> 
+    <input type="submit" value="SEND YOUR QUOTE">
+</form>
+
+<h2></h2>
+    </section>
+    <footer class="container">
+<div>
+    <p>&#169; DEVENDER SHARMA - 2020    </p>
+   
+</div>
+<div class="social-header">
+    <ul>
+        <li><i class="fab fa-facebook"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-github"></i></i></li>
+    </ul>
+    
+
+</div>
+    </footer>
+
+    
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
